@@ -4,7 +4,7 @@ let Wert = 10
 while (Wert >= 1) {
     if (input.buttonIsPressed(Button.A)) {
         basic.showNumber(Wert)
-        basic.pause(100)
+        basic.pause(20)
         Wert += -1
     }
 }
